@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+}
+
+div.main {
+    text-align: center;
+    
+}
+
+h1 { color: #CC9900; 
+    font-family: "Sriracha", sans-serif; 
+    font-size: 180px; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+nav {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 100px;
+}
+
+label {
+    padding-right: 30px;
+}
+
+img {
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+}
+
