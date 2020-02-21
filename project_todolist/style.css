@@ -1,0 +1,93 @@
+body {
+    background-color: #9cb8b3;
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+    width: 25rem;
+}
+
+#to-do-header{
+    font-family: "Raleway", sans-serif;
+    letter-spacing: -1px;
+    color: #efedce;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-bottom: -1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#add-task-btn {
+    background-color: #82a19e;
+    padding: 1em;
+}
+
+#add-btn {
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    padding: 0;
+    color: #efedce;
+    font-size: 15pt;
+    font-weight: 600;
+    margin-right: .25em;
+    transition: opacity 200ms ease-in;
+    display: inline-flex;
+    outline: none;
+}
+
+#add-btn:hover {
+    opacity: .5;
+}
+
+#input-field {
+    background-color: #8fada9;
+    padding: 0px 1em 1em 1em;
+    border-bottom-left-radius: 15px;
+}
+
+#task-input-bar {
+    width: 7rem;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #efedce;
+    outline: none;
+    transition: width 400ms ease-in;
+}
+
+#task-input-bar::placeholder {
+    color: #efedce;
+    opacity: .4;
+}
+
+#task-input-bar:focus {
+    width: 19rem;
+}
+
+#task-input-bar:focus::placeholder {
+    opacity: .25;
+}
+
+#to-do-body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 50px;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    margin-right: 0;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #efedce;
+    font-size: 14px;
+    list-style: none;
+}
